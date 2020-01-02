@@ -1,0 +1,115 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.box{
+    font-size: 12px; 
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.head{
+    height: 92px;
+    border: 1px solid lightgray;
+    display: flex;
+}
+.left{
+    width: 92px;
+    height: inherit;
+    position: relative;
+}
+.left>.pic{
+    width: inherit;
+    height: inherit;
+}
+.left>.iconfont{
+    font-size: 32px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+}
+.left>.iconfont:hover{
+    color: rgb(210, 206, 214);
+}
+.left>.icon-bofang{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.left>.icon-tubiaozhizuomoban{
+    font-size: 20px;
+    right: 5px;
+    bottom: 5px;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.r_top>.title{
+    font-size: 14px;
+}
+.r_top>.autor{
+    font-size: 12px;
+}
+.r_middle{
+    text-align: center;
+}
+.r_bottom{
+    display: flex;
+    align-items: center;
+}
+.r_bottom>.progress{
+    flex: 1;
+    height: 4px;
+    background-color: #ececec;
+    margin-right: 20px;
+    background-image: linear-gradient(to right,gray, gray);
+    background-repeat: no-repeat;
+    background-size: 0%;
+    cursor: pointer;
+}
+.r_bottom>.time{
+    margin-right: 20px;
+}
+/* 歌曲列表 */
+.content{
+    margin-top: 2px;
+    box-shadow:  0 0 10px 5px lightgray;
+    flex: 1;
+    overflow: auto;
+}
+.content>.music{
+    height:42px;
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+.active{
+    background-color: lightgray;
+}
+.content>.music:hover{
+    background-color: lightgray;
+}
+.content>.music:not(:first-child){
+    border-top: 1px solid #ececec;
+}
+.music>.m_index{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.music>.title{
+    flex: 1;
+}
+.music>.autor{
+    padding: 10px;
+    box-sizing: border-box;
+}
