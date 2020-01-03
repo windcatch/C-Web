@@ -1,0 +1,114 @@
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.writeBox {
+    width: 100%;
+    height: 270px;
+}
+
+.writeBox>.sign {
+    width: 100%;
+    height: 75px;
+    padding: 0 80px;
+}
+
+.writeBox .fl {
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    font-size: 16px;
+    line-height: 75px;
+    float: left;
+}
+
+div {
+    margin: 0 auto;
+    text-align: left;
+    font: normal 12px/180% \5FAE\8F6F\96C5\9ED1;
+}
+
+.writeBox .fr {
+    float: right;
+}
+
+.writeBox .fr>button {
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #c0c0c0;
+    display: inline-block;
+    padding: 0 9px;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+body,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.main .warpper {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+}
+
+.writeBox .fl {
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    font-size: 16px;
+    line-height: 75px;
+    float: left;
+}
+
+.writeBox .fr {
+    float: right;
+}
+
+#message>textarea {
+    width: 100%;
+    padding: 0 8px;
+    border: 1px solid #ddd;
+    border-left: 2px solid #eceded;
+    border-right: 2px solid #eceded;
+    resize: none;
+    outline: none;
+    color: rgb(153, 153, 153);
+}
+
+.scroller-pullDown {
+    width: 100%;
+    height: 35px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dropdown-list {
+    padding: 0;
+    margin: 0;
+}
+
+
+.f-single {
+    padding: 0 10px;
+    width: 100%;
+    padding-top: 16px;
+    height: 300px;
+    margin-bottom: 16px;
+    position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    border:2px solid #f5d0dc;
+}
