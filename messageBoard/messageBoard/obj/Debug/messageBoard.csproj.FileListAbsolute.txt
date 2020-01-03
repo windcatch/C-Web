@@ -69,7 +69,7 @@ C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\bin\Microsoft.As
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\bin\zh-Hans\System.Web.Optimization.resources.dll
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\obj\Debug\messageBoard.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\obj\Debug\messageBoard.csproj.CopyComplete
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\obj\Debug\messageBoard.dll
 C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\obj\Debug\messageBoard.pdb
+C:\Users\Administrator\Desktop\c#&Web\messageBoard\messageBoard\obj\Debug\messageBoard.csprojAssemblyReference.cache

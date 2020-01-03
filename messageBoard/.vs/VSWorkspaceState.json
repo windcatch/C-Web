@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\messageBoard"
   ],
-  "SelectedNode": "\\messageBoard.sln",
+  "SelectedNode": "\\messageBoard",
   "PreviewInSolutionExplorer": false
 }
